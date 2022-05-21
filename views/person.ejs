@@ -1,19 +1,18 @@
 <!DOCTYPE html>
-<html
->
+<html>
 <body>
 <h1> Agregar persona</h1>
 
-<form action="/addPerson" method="POST">
-    <label for="nss">NSS:</label>
-    <input type="text" id="nss" name="nss"> <br><br>
-    <label for="nombre">Nombre:</label>
-    <input type="text" id="nombre" name="nombre"><br><br>
-    <label for="edad">Edad:</label>
-    <input type="text" name="edad" id="edad"> <br><br>
-    <label for="tipoSangre">Tipo de Sangre:</label>
-    <input type="text" id="tipoSangre" name="tipoSangre"><br><br>
-    <input type="submit" value="Submit">
+<form action="/addPerson" method="POST"> <!--Creamos un formulario que responde a un metodo POST-->
+    <label for="nss">NSS:</label> <!--Una etiqueta para el input de numero de seguro social-->
+    <input type="text" id="nss" name="nss"> <br><br><!--Input para ingresar el numero de seguro social-->
+    <label for="nombre">Nombre:</label><!--Una etiqueta para el input de nombre-->
+    <input type="text" id="nombre" name="nombre"><br><br><!--Input para ingresar el nombre-->
+    <label for="edad">Edad:</label><!--Una etiqueta para el input de edad-->
+    <input type="text" name="edad" id="edad"> <br><br><!--Input para ingresar la edad-->
+    <label for="tipoSangre">Tipo de Sangre:</label><!--Una etiqueta para el input tipo de sangre-->
+    <input type="text" id="tipoSangre" name="tipoSangre"><br><br> <!--Input para ingresar el tipo de sangre-->
+    <input type="submit" value="Submit"> <!--botón para agregar a la base de datos a la persona-->
 </form>
 
 </body>
